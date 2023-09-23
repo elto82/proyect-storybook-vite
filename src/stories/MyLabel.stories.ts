@@ -13,6 +13,7 @@ const meta = {
     color: { control: "select" },
     allCaps: { control: "boolean" },
     fontColor: { control: "color" },
+    backgroundColor: { control: "color" },
   },
 } satisfies Meta<typeof MyLabel>;
 
@@ -40,5 +41,11 @@ export const CustomColor: Story = {
   args: {
     label: "Custom Color Label",
     fontColor: "#5517ac",
+  },
+};
+export const BackgroundCustom: Story = {
+  args: {
+    label: "Background custom Label",
+    background: "blue",
   },
 };
