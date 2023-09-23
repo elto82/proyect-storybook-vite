@@ -46,6 +46,6 @@ export const CustomColor: Story = {
 export const BackgroundCustom: Story = {
   args: {
     label: "Background custom Label",
-    background: "blue",
+    backgroundColor: "blue",
   },
 };
